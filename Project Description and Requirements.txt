@@ -1,0 +1,57 @@
+Lung Disease Prediction Using CNN
+Data Source Link:https://data.mendelay.com/datasets/rscbjbr9sj/2
+
+Overview
+This project demonstrates the use of Convolutional Neural Networks (CNNs) to predict lung diseases 
+from medical imaging data.
+ 
+The project includes:
+
+Model Development: CNN architecture designed and trained using TensorFlow/Keras.
+Data Analysis: Preprocessing and analysis conducted in Jupyter notebooks.
+Web Interface: A Streamlit application that provides a user-friendly interface for making predictions.
+The development and experimentation are conducted in Jupyter notebooks using Visual Studio Code (VS Code).
+
+Table of Contents
+
+Project Description
+Installation
+Usage
+Project Structure
+
+Project Description
+The project aims to build an effective lung disease prediction system using CNNs. It involves:
+
+Data Preparation: Cleaning and transforming medical images for model training.
+Model Training: Creating and training a CNN model to classify different types of lung diseases.
+Web Interface: Developing an interactive Streamlit application for users to 
+upload images and get disease predictions.
+
+Installation
+Prerequisites
+Python 3.7 or later
+pip (Python package installer)
+Jupiter Notebook
+Optional: Visual Studio Code (for an enhanced development experience)(Streamlit)
+
+Usage
+Training the Model:
+
+Open notebooks/lung_disease_model.ipynb in Jupyter Notebook.
+Execute the notebook cells to preprocess data, build the CNN model, and train it.
+Using the Web Interface:
+
+Ensure that your model is trained and saved.
+Run streamlit run app.py to launch the Streamlit application.
+Use the interface to upload lung scans and view predictions.
+Project Structure
+notebooks/: Jupyter notebooks for model development and data preprocessing.
+lung_disease_model.ipynb: Main notebook for model creation and training.
+src/: Source code for model architecture and data handling.
+model.py: Defines CNN model architecture and training routines.
+data_preprocessing.py: Contains functions for data preprocessing.
+app.py: Streamlit script to create a web interface for predictions.
+data/: Contains dataset and related information.
+README.md: Instructions for dataset acquisition and preparation.
+requirements.txt: Lists required Python packages for the project.
+README.md: This file.
